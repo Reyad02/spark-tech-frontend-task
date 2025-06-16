@@ -1,5 +1,5 @@
 import Image from "next/image";
-import footerImg from "@/assets/Footer_icon.png";
+import footerImg from "@/assets/logo.png";
 
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
