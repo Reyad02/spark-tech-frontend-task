@@ -11,7 +11,7 @@ import { FaStar } from "react-icons/fa";
 import { GoPlus } from "react-icons/go";
 import { CiHeart } from "react-icons/ci";
 
-const ranchoFont = Rancho({
+export const ranchoFont = Rancho({
   subsets: ["latin"],
   weight: "400",
 });
