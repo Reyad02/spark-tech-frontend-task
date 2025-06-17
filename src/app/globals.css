@@ -32,3 +32,28 @@ body {
   color: var(--foreground);
   font-family: var(--font-poppins);
 }
+
+.custom-carousel-dots {
+  margin-top: 2rem;
+  display: flex !important;
+  justify-content: center;
+}
+
+.custom-carousel-dots li {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FF6B00;
+  border-radius: 50%;
+  opacity: 0.5;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.custom-carousel-dots li button {
+  display: none;
+}
+
+.custom-carousel-dots li.slick-active {
+  background-color: #FF6B00;
+  opacity: 1;
+}
