@@ -5,7 +5,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <>
-      <p className="text-base text-white bg-[#ED6923] h-12 flex justify-center items-center">
+      <p className="text-base text-white bg-[var(--orange1st)] h-12 flex justify-center items-center">
         {" "}
         Free Delivery on Your First Order – Order Now!
       </p>

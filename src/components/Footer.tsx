@@ -19,16 +19,16 @@ const Footer = () => {
             your door in no time
           </p>
           <div className="flex gap-2 items-center">
-            <div className="bg-[#1C2125] hover:bg-[#ED6923] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
+            <div className="bg-[#1C2125] hover:bg-[var(--orange1st)] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
               <FaFacebookF />
             </div>
-            <div className="bg-[#1C2125] hover:bg-[#ED6923] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
+            <div className="bg-[#1C2125] hover:bg-[var(--orange1st)] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
               <FaTwitter />
             </div>
-            <div className="bg-[#1C2125] hover:bg-[#ED6923] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
+            <div className="bg-[#1C2125] hover:bg-[var(--orange1st)] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
               <FaLinkedinIn />
             </div>
-            <div className="bg-[#1C2125] hover:bg-[#ED6923] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
+            <div className="bg-[#1C2125] hover:bg-[var(--orange1st)] rounded-full border p-3 text-sm border-[#1C2125] hover:cursor-pointer">
               <FaWhatsapp />
             </div>
           </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                 placeholder="Enter Email"
                 className="border w-full border-[#181D21] py-4 pl-6 rounded-bl-sm rounded-tl-sm bg-[#181D21] max-w-[460px] "
               />
-              <div className="hover:cursor-pointer absolute inset-y-0 right-0 rounded-br-sm rounded-tr-sm bg-[#ED6923] p-5">
+              <div className="hover:cursor-pointer absolute inset-y-0 right-0 rounded-br-sm rounded-tr-sm bg-[var(--orange1st)] p-5">
                 <FaTelegramPlane className="text-base text-white" />
               </div>
             </div>
