@@ -15,7 +15,14 @@ import chicken from "@/assets/chicken.jpg";
 import deoner_kabab from "@/assets/doner_kabab.jpg";
 import pizza_1 from "@/assets/pizza_1.jpg";
 
+import burger_king from "@/assets/burger_king.jpg";
+import vina from "@/assets/vina.jpg";
+import aplen from "@/assets/aplenflair.jpg";
+import mozart from "@/assets/mozart's.jpg";
+
+
 import FoodSlider from "@/components/module/Food/FoodSlider";
+import ResturentSlider from "@/components/module/Restaurent/ResaurentSlider";
 
 const categories = [
   { name: "Donuts", color: "#E1B47B", img: donuts },
@@ -37,6 +44,14 @@ const foods = [
   { name: "Pepperoni Pizza Slice", img: pizza_1 },
 ];
 
+const restaurents = [
+  { name: "Burger King", img: burger_king },
+  { name: "Vienna's Delight", img: vina },
+  { name: "AlpenFlair Bistro", img: aplen },
+  { name: "Mozart's Table", img: mozart },
+  { name: "Burger King", img: burger_king },
+];
+
 export default function Home() {
   return (
     <div className="">
@@ -50,6 +65,11 @@ export default function Home() {
       <SectionTitle title="Popular Food" subtitle="Food Near me" />
       <div className="max-w-7xl mx-auto relative z-20 overflow-visible pb-20">
         <FoodSlider items={foods} />
+      </div>
+
+      <SectionTitle title="Popular Food" subtitle="Restaurent Near me" />
+      <div className="max-w-7xl mx-auto relative z-20 overflow-visible pb-20">
+        <ResturentSlider items={restaurents}/>
       </div>
     </div>
   );
