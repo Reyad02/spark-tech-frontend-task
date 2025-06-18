@@ -24,8 +24,8 @@ const Hero = () => {
           "linear-gradient(239.29deg, rgba(253, 237, 229, 0.25) 20.27%, rgba(254, 140, 79, 0.1) 50%, rgba(254, 140, 79, 0.25) 78.71%)",
       }}
     >
-      <div className="max-w-7xl mx-auto flex items-center pb-28 pt-10">
-        <div className="w-1/2 pr-6 flex flex-col gap-6">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center pb-28 pt-10">
+        <div className="w-full md:w-1/2 pr-6 flex flex-col gap-6">
           <h1
             className={`text-8xl ${ranchoFont.className} text-[var(--orange1st)]`}
           >
@@ -44,7 +44,7 @@ const Hero = () => {
           <div className="relative">
             <input
               type="email"
-              placeholder="Enter Email"
+              placeholder="Enter your location"
               className="border w-full border-[var(--orange1st)] py-4 pl-6 rounded-bl-xl rounded-tl-xl rounded-br-xl rounded-tr-xl text-[#6C757D] text-sm bg-white"
             />
             <div className="hover:cursor-pointer absolute inset-y-0 right-1/4 rounded-br-xl rounded-tr-xl  p-4 flex gap-1 items-center">
@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-1/2 h-[533px] relative ">
+        <div className="w-full md:w-1/2 h-[533px] relative ">
           <Image
             className="rounded-[66px] w-full h-full object-cover"
             src={hero}

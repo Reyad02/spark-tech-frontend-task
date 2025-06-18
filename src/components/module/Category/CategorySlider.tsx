@@ -77,7 +77,7 @@ const CategorySlider = ({ items }: { items: CategoryItem[] }) => {
       >
         {items.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="relative">
+            <div className="relative pt-4">
               <Category name={item.name} color={item.color} img={item.img} />
             </div>
           </SwiperSlide>

@@ -16,23 +16,21 @@ import { Carousel } from "antd";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-7xl mx-auto relative z-20 overflow-visible pb-20 pt-16 flex items-center gap-20">
-      <div className="max-w-[500px]">
+    <div className="max-w-7xl mx-auto relative z-20 overflow-visible pb-20 pt-16 flex flex-col md:flex-row items-center gap-20">
+      <div className="w-full px-2.5 md:px-0 md:max-w-[500px]">
         <div className="flex flex-col gap-3">
           <h1
-            className={`text-xl text-[var(--blackt)] ${ranchoFont.className}`}
+            className={`text-xl text-[var(--blackt)] ${ranchoFont.className} text-center md:text-left`}
           >
             Restaurants
           </h1>
-          <h2 className="text-4xl font-semibold ">
+          <h2 className="text-4xl font-semibold text-center md:text-left">
             What{" "}
             <span className="text-[var(--orange1st)]">Customer Saying</span>{" "}
             About our Services
           </h2>
 
-          <Carousel
-            //   autoplay
-            
+          <Carousel            
             dots={{
               className: "custom-carousel-dots",
             }}
@@ -211,9 +209,10 @@ const Testimonial = () => {
           </Carousel>
         </div>
       </div>
-      <div className="relative ml-32 z-0">
-        <div className="w-[500px] h-[500px] rounded-full border-[3px] border-dashed flex items-center justify-center border-[#ED692333] z-0">
-          <div className="relative w-[410px] h-[410px] rounded-full border-[3px] border-dashed border-[#ED69234D] z-0">
+      
+      <div className="relative mx-15 md:ml-32 z-0">
+        <div className="w-full p-4 md:p-0 md:w-[500px] h-full md:h-[500px] rounded-full border-[3px] border-dashed flex items-center justify-center border-[#ED692333] z-0">
+          <div className="relative w-full md:w-[410px] h-full md:h-[410px] rounded-full border-[3px] border-dashed border-[#ED69234D] z-0">
             <Image
               className="absolute top-6 -left-8 z-10"
               src={tomato}
