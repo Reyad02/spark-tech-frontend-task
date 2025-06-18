@@ -35,7 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
         {children}
-        <div className="bg-black ">
+        <div className="bg-black mt-10">
           <Footer />
         </div>
       </body>

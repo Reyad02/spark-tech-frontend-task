@@ -3,11 +3,12 @@ import { ReactNode } from "react";
 
 const profileLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="flex max-w-7xl mx-auto mt-10">
-      <div className="sticky mb-10 drop-shadow-sm">
+    <div className="flex max-w-7xl mx-auto mt-10 items-stretch gap-6">
+      <div className="w-[282px]">
         <Aside />
       </div>
-      <div className="max-w-4xl mx-auto border border-red-400 w-full">
+
+      <div className="flex-1">
         {children}
       </div>
     </div>

@@ -9,7 +9,7 @@ import { FiShoppingBag } from "react-icons/fi";
 
 const Aside = () => {
   return (
-    <div className="min-h-screen bg-white rounded-lg">
+    <div className="h-full bg-white rounded-lg">
       <div
         style={{
           background:
